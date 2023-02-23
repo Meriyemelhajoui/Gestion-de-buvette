@@ -1,0 +1,415 @@
+@font-face {
+    src: url(font/Diskopia20Black-y443.ttf);
+    font-family: Diskopia;
+}
+@font-face {
+    src: url(font/AbrilFatface-Regular.ttf);
+    font-family: Abril;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+tr img{
+    width:100px;
+}
+
+.gerer h2{
+    color: white;
+    text-align: left;
+}
+
+.bt{
+        font-family: 'Abril';
+        font-size: 20px;
+        color:#ff8500;
+        padding: 5px 35px;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: white;
+}
+.bt:hover{
+    color: #630100;
+    background-color: #ff8500;
+    border: 2px #630100 solid ;
+}
+
+.bt1{
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+}
+.bt1:hover{
+    color: #ff8500;
+    background-color: white;
+    transform: translateY(-3px);
+}
+
+.bt2{
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    background-color:#630100;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bt2:hover{
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 16px 0px rgba(2, 2, 2, 0.3);
+}
+.tbl{
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+}
+.tbl2{
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.tbl2 td{
+    width: 10%;
+    text-align: center;
+}
+.tbl2 th{
+    width: 10%;
+}
+.tbl2 tr{
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    border: solid #630100;
+    border-width: 1px 1px 0px 1px;
+}
+.tbl2 .bt1{
+    width: 80px;
+    font-size: 15px;
+    padding: 3px 8px;
+}
+tr{
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    border: solid #630100;
+    border-width: 1px 1px 0px 1px;
+    padding: 3%;
+}
+.tbl tr th{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #630100;
+}
+td.butt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+}
+td.butt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.butt2 .bt1{
+    margin-bottom: 5%;
+    width: 100px;
+}
+td{
+    width: 30%;
+}
+
+h1{
+    margin-top: 1%;
+    color: white;
+    font-family: Diskopia;
+    font-size: 50px;
+}
+
+.catt{
+    height: 100%;
+    min-height: 60vh;
+    background-color: #ff8500;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+.fl{
+    margin-top:3%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fl div{
+    color: #630100;
+    font-family: 'Abril';
+    width: 46%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1%;
+    margin-bottom: 4%;
+    align-items: center;
+    min-height: 200px;
+}
+.fl div h3{
+    font-size: 100px;
+}
+.fl div h4{
+    font-size: 30px;
+}
+
+.gerer{
+    display: flex;
+    position: relative;
+}
+.gerer a{
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+
+.wrapper{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .fl div{
+        margin-bottom: 5%;
+        width: 45%;
+    }
+    .fl div h3{
+        font-size: 80px;
+    }
+    .fl div h4{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .fl div h3{
+        font-size: 60px;
+    }
+    .fl div h4{
+        font-size: 20px;
+    }
+    td.butt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .butt .bt1{
+        margin-bottom: 5%;
+        width: 100px;
+    }
+    .butt2 .bt1{
+        font-size: 15px;
+        padding: 2px 10px;
+        width: 80px;
+    }
+    .butt2 .bt2{
+        font-size: 15px;
+        padding: 2px 10px;
+    }
+    .tbl2{
+        width: 100%;
+        font-family: 'Abril';
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+    .tbl2 td{
+        width: 10%;
+        text-align: center;
+    }
+    .tbl2 th{
+        width: 10%;
+    }
+    .tbl2 tr{
+        display: flex;
+        justify-content: space-around;
+        gap: 1%;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+        border: solid #630100;
+        border-width: 1px 1px 0px 1px;
+    }
+    .tbl2 .bt1{
+        width: 80px;
+        font-size: 13px;
+        padding: 3px 5px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+.wrapper{
+    display:flex;
+}
+.wrapper input:checked ~ .fac{
+    height: 200px;
+    top: -210px;
+}
+
+.tbl2{
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.tbl2 td{
+    width: 10%;
+    text-align: center;
+}
+.tbl2 th{
+    width: 10%;
+}
+.tbl2 tr{
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    border: solid #630100;
+    border-width: 1px 1px 0px 1px;
+}
+.tbl2 .bt1{
+    width: 60px;
+    font-size: 13px;
+    padding: 3px 5px;
+}
+
+}
+@media only screen and (max-width: 700px) {
+    .fl div h3{
+        font-size: 60px;
+    }
+   .fl div h4{
+        font-size: 20px;
+    }
+   .fl div {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .fl{
+        justify-content:space-between;
+        flex-direction: column; 
+        gap: 1%;
+    }
+    .tbl{
+        width: 100%;
+        font-family: 'Abril';
+        font-size: 15px;
+        color: white;
+    }
+    .tbl2{
+        width: 100%;
+        font-family: 'Abril';
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+    .tbl2 td{
+        width: 10%;
+        text-align: center;
+    }
+    .tbl2 th{
+        width: 10%;
+    }
+    .tbl2 tr{
+        display: flex;
+        justify-content: space-around;
+        gap: 1%;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+        border: solid #630100;
+        border-width: 1px 1px 0px 1px;
+    }
+    .tbl2 .bt1{
+        width: 50px;
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .bt{
+        font-size: 15px;
+        padding: 2px 30px;
+    }
+    .butt .bt1{
+        font-size: 15px;
+        padding: 2px 30px;
+        width: 80px;
+    }
+    .bt2{
+        font-size: 15px;
+        padding: 2px 30px;
+    }
+
+    .tbl{
+        width: 100%;
+        font-family: 'Abril';
+        font-size: 13px;
+        color: white;
+    }
+    tr img{
+        width:50px;
+    }
+
+    .tbl2{
+        width: 100%;
+        font-family: 'Abril';
+        font-size: 8px;
+        color: white;
+        text-align: center;
+    }
+    .tbl2 td{
+        width: 10%;
+        text-align: center;
+    }
+    .tbl2 th{
+        width: 10%;
+    }
+    .tbl2 tr{
+        display: flex;
+        justify-content: space-around;
+        gap: 1%;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+        border: solid #630100;
+        border-width: 1px 1px 0px 1px;
+    }
+    .tbl2 .bt1{
+        width: 40px;
+        font-size: 8px;
+        padding: 3px 5px;
+    }
+}
+

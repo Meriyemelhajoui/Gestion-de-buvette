@@ -1,0 +1,113 @@
+@font-face {
+    src: url(font/Diskopia20Black-y443.ttf);
+    font-family: Diskopia;
+}
+@font-face {
+    src: url(font/AbrilFatface-Regular.ttf);
+    font-family: Abril;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.catt{
+    height: 70vh;
+    background-color: #ff8500;
+    padding: 1%;
+}
+.align{
+    text-align: center;
+}
+
+.gerer h2{
+    color: white;
+}
+
+.bt{
+        font-family: 'Abril';
+        font-size: 20px;
+        color:#ff8500;
+        padding: 5px 35px;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: white;
+}
+
+.bt1{
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+}
+.bt2{
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color:#630100;
+    border-color: #630100;
+}
+.butt{
+    position: absolute;
+    right: 0%;
+}
+
+h1{
+    margin-top: 1%;
+    color: white;
+    font-family: Diskopia;
+    font-size: 50px;
+}
+
+.col-4{
+    align-items: center;
+    color: #630100;
+    font-family: 'Abril';
+    font-size: large;
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    height: 20vh;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gerer{
+    display: flex;
+    position: relative;
+}
+.gerer a{
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+.tbl{
+    width: 100%;
+    font-family: 'Abril';
+    font-size: 20px;
+    color: white;
+}
+tr{
+    position: relative;
+}
+table tr td{
+    padding: 2%;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
